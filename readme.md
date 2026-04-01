@@ -1,19 +1,26 @@
-# Explorador do Sistema Solar 🪐
-
-Aplicativo mobile construído para apresentar os planetas do Sistema Solar e exibir suas principais características de forma interativa. Projeto focado na renderização eficiente de listas e construção de interfaces modernas.
+# Cardápio Interativo 🍔🥤
+Aplicativo mobile construído para simular um sistema de pedidos de fast food, exibindo opções de comidas e bebidas de forma interativa. Projeto focado na manipulação de estados múltiplos, cálculos dinâmicos em tempo real e construção de interfaces modernas e amigáveis para o usuário.
 
 ## 🚀 Funcionalidades
+* Visualização de produtos em um layout de listas roláveis horizontais utilizando cartões (cards) interativos.
 
-* Visualização dos planetas em um layout de grade (grid) utilizando cartões interativos.
-* Renderização de tela de detalhes através de um Modal animado (estilo Bottom Sheet).
-* Exibição de informações dinâmicas baseadas no item selecionado (imagem do planeta, dias para volta no sol e descrição completa).
-* Interface com design moderno, aplicando sombras, cantos arredondados e fundos em gradiente.
+* Feedback visual imediato destacando o item selecionado através de mudança de cores e bordas.
+
+* Cálculo dinâmico e automático do valor total do pedido com formatação de moeda brasileira (R$).
+
+* Sistema de confirmação de pedido através de um Alerta nativo, exibindo o resumo dos itens, com adaptação inteligente para funcionar tanto em Mobile (iOS/Android) quanto na Web.
+
+* Interface com design moderno, aplicando sombras (elevation), cantos arredondados e uma paleta de cores vibrante e atrativa.
 
 ## 🛠️ Tecnologias Utilizadas
-
 * React Native
+
 * JavaScript
-* React Hooks (useState)
-* FlatList (Para renderização de listas com alta performance)
-* StyleSheet (Estilização nativa)
-* Expo (expo-linear-gradient e @expo/vector-icons para aprimoramento visual)
+
+* React Hooks (useState para controle inteligente dos itens selecionados)
+
+* ScrollView (Para renderização de navegação horizontal fluida)
+
+* API Platform (Para detecção do ambiente e exibição correta de alertas)
+
+* StyleSheet (Estilização nativa em componentes)
